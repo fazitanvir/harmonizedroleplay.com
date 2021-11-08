@@ -34,14 +34,17 @@
             <ul class="navbar-nav">
               <?php
                 foreach ($linkarray as $key => $link) {
-                  if ($link !== "" && $link !== "#" && $link !== null) {
+                  if ($link == "" || $link == "#") {
+                  }
+        
+                  elseif ($link !== "" && $link !== "#" && $link !== null) {
                     $piece = explode("#", $link);
-
+        
                     if ($piece[0] == "About") {
                       echo '<li class="nav-item"> <a class="nav-link active" href="'.$piece[1].'">'.$piece[0].'</a> </li>';
                     }
-
-                    if ($piece[0] !== $domain) {
+      
+                    elseif ($piece[0] !== basename(dirname($domain))) {
                       echo '<li class="nav-item"> <a class="nav-link" href="'.$piece[1].'">'.$piece[0].'</a> </li>';
                     }
                   }
