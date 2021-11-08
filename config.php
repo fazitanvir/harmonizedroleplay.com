@@ -9,7 +9,7 @@
     $theme = "dark"; // dark or light
 
     // Domain
-    $domain = "http://localhost:5555/"; // 
+    $domain = "https://dev.harmonizedroleplay.com/"; // keep trailing slash
 
     // Colors
     $color = "#ae47ff";
