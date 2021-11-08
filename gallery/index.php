@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="<?php echo $color ?>">
     <meta property="og:title" content="<?php echo $name ?>">
-	<meta property="og:description" content="<?php echo $desc ?>">
-	<meta property="og:image" content="<?php echo $logo ?>">
+	  <meta property="og:description" content="<?php echo $desc ?>">
+	  <meta property="og:image" content="<?php echo $logo ?>">
     <link rel="icon" type="image/png" href="<?php echo $logo ?>">
 
     <!-- CSS -->
