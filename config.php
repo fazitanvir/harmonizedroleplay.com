@@ -5,13 +5,13 @@
     // Description
     $desc = "Realistic FiveM Roleplay Community";
 
-    // Theme
-    $theme = "dark"; // dark or light
+    // Theme (light or dark)
+    $theme = "dark";
 
-    // Domain
-    $domain = "https://dev.harmonizedroleplay.com/"; // keep trailing slash
+    // Domain (with trailing slash)
+    $domain = "https://dev.harmonizedroleplay.com/";
 
-    // Colors
+    // Colors (hex)
     $color = "#ae47ff";
 
     // Logo
