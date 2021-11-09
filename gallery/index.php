@@ -53,13 +53,13 @@
 
     <!-- Gallery Images -->
 
-    <div class="container" style=" padding: 5vh 2.5vw; width: 100vw;">
+    <div class="container" style="padding: 5vh 2.5vw; width: 100vw;">
         <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 1%">
             <?php
             foreach ($gallery as &$image) {
             ?>
                 <div class="col">
-                    <div class="card h-100 bg-<?php echo $theme ?>" style="box-shadow: 0 0.01vh 1vh 0 #000;">
+                    <div class="card h-100 bg-<?php echo $theme ?>" style="filter:brightness(0.8)">
                         <img src="<?php echo $image ?>" class="card-img">
                     </div>
                 </div>
