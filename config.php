@@ -18,7 +18,7 @@
     $logo = $domain."assets/img/logo.png";
 
     // About Page
-    $about = "";
+    $about = "bruh moment when about is just a bunch of random words i threw together so i can see what it looks like";
 
     // Gallery
     $gallery = [
