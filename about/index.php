@@ -51,6 +51,15 @@
         </div>
     </nav>
 
+    <div class="container" style="padding: 5vh 2.5vw; width: 100vw;">
+        <div class="card text-white bg-<?php echo $theme ?>" style="filter:brightness(0.8)">
+            <div class="card-header">About</div>
+            <div class="card-body">
+                <p class="card-text"><?php echo $about ?></p>
+            </div>
+        </div>
+    </div>
+
     <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
