@@ -17,15 +17,6 @@
     // Logo (must be an image ".png, .jpg, .gif, etc")
     $logo = $domain."assets/img/logo.png";
 
-    // Application Page
-    $webhookurl = "https://discord.com/api/webhooks/905874431010803752/9MePRdIov3sG6EdGeXB28GK8KTcbX6q31FjyT3nWTgGPiPgzdfWOmEtJdOXA0kizO-i1";
-	$departments = [
-		"San Andreas State Troopers",
-        "Los Santos Police Department",
-		"Blaine County Sheriff's Office",
-		"San Andreas Fire Rescue"
-	];
-
     // About Page
     $about = "bruh moment when about is just a bunch of random words i threw together so i can see what it looks like";
 
