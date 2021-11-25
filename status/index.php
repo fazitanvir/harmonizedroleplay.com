@@ -19,7 +19,7 @@
 <html lang="en">
 
 <head>
-    <title><?php echo $name ?> | About</title>
+    <title><?php echo $name ?> | Status</title>
 
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
