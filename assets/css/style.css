@@ -3,6 +3,11 @@
     width: 100vw;
 }
 
+#apply {
+    padding: 5vh 2.5vw;
+    width: 100vw;
+}
+
 #status {
     padding: 5vh 2.5vw;
     width: 100vw;
