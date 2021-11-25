@@ -16,6 +16,7 @@
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body class="bg-<?php echo $theme ?>">
@@ -53,7 +54,7 @@
 
     <!-- Gallery Images -->
 
-    <div class="container" style="padding: 5vh 2.5vw; width: 100vw;">
+    <div class="container" id="gallery">
         <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 1%">
             <?php
             foreach ($gallery as &$image) {
