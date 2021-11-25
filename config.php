@@ -20,39 +20,45 @@
     // About Page
     $about = "bruh moment when about is just a bunch of random words i threw together so i can see what it looks like";
 
+    // Status Page
+    $servers = [
+		"vMenu Server" => [
+			"IP" => "172.93.102.199",
+			"port" => "30120"
+		],
+		"Economy Server" => [
+			"IP" => "172.93.102.199",
+			"port" => "30121"
+		],
+		"Discord Bot" => [
+			"IP" => "172.93.102.199",
+			"port" => "8081"
+		],
+	];
+
     // Gallery
     $gallery = [
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-        "https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
-		"https://harmonizedroleplay.com/images/logo.png",
+		"https://cdn.discordapp.com/attachments/875906782327885894/896546735646732308/screenshot.jpg",
+		"https://cdn.discordapp.com/attachments/875906782327885894/911184680429178890/screenshot.jpg",
+        "https://cdn.discordapp.com/attachments/875906782327885894/893347750618476594/screenshot.jpg"
 	];
 
     // Navbar Links
-    $link1label = "About";
-    $link1href = $domain."about";
+    $link1label = "Apply";
+    $link1href = $domain."apply";
 
-    $link2label = "Apply";
-    $link2href = $domain."apply";
+    $link2label = "Status";
+    $link2href = $domain."status";
 
-    $link3label = "Status";
-    $link3href = $domain."status";
+    $link3label = "Gallery";
+    $link3href = $domain."gallery";
 
-    $link4label = "Gallery";
-    $link4href = $domain."gallery";
+    $link4label = "Store";
+    $link4href = "https://store.harmonizedroleplay.com/";
 
-    $link5label = "Store";
-    $link5href = "https://store.harmonizedroleplay.com/";
-
-    $link6label = "CAD/MDT";
-    $link6href = $domain."cad";
+    $link5label = "CAD/MDT";
+    $link5href = $domain."cad";
 
     // Navbar Array
-	$linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href", "link6" => "$link6label#$link6href");
+	$linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
 ?>
