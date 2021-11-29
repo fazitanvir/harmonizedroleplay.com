@@ -5,6 +5,12 @@
     // Description
     $desc = "Realistic FiveM Roleplay Community";
 
+    // Discord Server ID
+    $serverid = "700823865299042304";
+
+    // FiveM Connect Link
+    $fivem = "fivem://connect/172.93.102.199:30121";
+    
     // Theme (light or dark)
     $theme = "dark";
 
@@ -60,5 +66,17 @@
     $link5href = $domain."cad";
 
     // Navbar Array
-	$linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
+    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
+
+    // Text Color
+    if ($theme == "light"){
+        $txtcolor = "dark";
+    } else if ($theme == "dark") {
+        $txtcolor = "light";
+    }
+
+    // Discord Member Count
+    $link = file_get_contents('https://discordapp.com/api/guilds/'.$serverid.'/widget.json');
+    $JSON = json_decode($link, true);
+    $members = $JSON['presence_count'];
 ?>

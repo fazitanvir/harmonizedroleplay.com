@@ -67,7 +67,7 @@
         </div>
     </nav>
 
-    <div class="container" id="status">
+    <div class="container text-<?php echo $txtcolor ?>" id="status">
         <?php foreach ($servers as $name => $information) { ?>
             <h1><?php echo $name ?></h1>
                 <?php checkStatus($information['IP'], $information['port']) ?>

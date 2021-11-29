@@ -16,6 +16,7 @@
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body class="bg-<?php echo $theme ?>">
@@ -49,7 +50,23 @@
         </div>
     </nav>
 
-    <div class="container" style="padding: 5vh 2.5vw; width: 100vw;">
+    <div class="container text-<?php echo $txtcolor ?>">
+        <div class="grid">
+            <div>
+                <h1 style="color: <?php echo $color ?>">Discord Server</h1>
+                <p><?php echo $members ?> members online</p>
+            </div>
+            <div>
+                <img src="<?php echo $logo ?>" width="450"/>
+            </div>
+            <div href="<?php echo $fivem ?>">
+                <h1 style="color: <?php echo $color ?>">FiveM Server</h1>
+                <p>Click to connect</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-<?php echo $txtcolor ?>" id="about">
         <div class="card text-white bg-<?php echo $theme ?>" style="filter:brightness(0.8)">
             <div class="card-header">About</div>
             <div class="card-body">
