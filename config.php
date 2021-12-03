@@ -24,7 +24,7 @@
     $logo = $domain."assets/img/logo.png";
 
     // About Page
-    $about = "bruh moment when about is just a bunch of random words i threw together so i can see what it looks like";
+    $about = "Harmonized Roleplay is an upcoming Economy FiveM server with exciting new features and looking to grow the community. With LEO positions available and staff applications open, we are welcoming new members with open arms and getting you involved! Hosting frequent giveaways and new events weekly, there is a diverse range of community events for you to join in with. Our friendly staff ensure your experience with us in nothing but the best, and are dedicated to ensure you have a fun time within Harmonized.";
 
     // Status Page
     $servers = [
@@ -50,23 +50,27 @@
 	];
 
     // Navbar Links
-    $link1label = "Apply";
-    $link1href = $domain."apply";
 
-    $link2label = "Status";
-    $link2href = $domain."status";
+    $link1label = "About";
+    $link1href = $domain."about";
 
-    $link3label = "Gallery";
-    $link3href = $domain."gallery";
+    $link2label = "Apply";
+    $link2href = $domain."apply";
 
-    $link4label = "Store";
-    $link4href = "https://store.harmonizedroleplay.com/";
+    $link3label = "Status";
+    $link3href = $domain."status";
 
-    $link5label = "CAD/MDT";
-    $link5href = $domain."cad";
+    $link4label = "Gallery";
+    $link4href = $domain."gallery";
+
+    $link5label = "Store";
+    $link5href = "https://store.harmonizedroleplay.com/";
+
+    $link6label = "CAD/MDT";
+    $link6href = $domain."cad";
 
     // Navbar Array
-    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
+    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href", "link6" => "$link6label#$link6href");
 
     // Text Color
     if ($theme == "light"){

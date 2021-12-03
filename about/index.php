@@ -1,10 +1,10 @@
-<?php include(__DIR__ . "/config.php"); ?>
+<?php include(__DIR__ . "/../config.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title><?php echo $name ?> | Home</title>
+    <title><?php echo $name ?> | About</title>
 
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,13 +16,12 @@
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
 <body class="bg-<?php echo $theme ?>">
 
-    <?php include(__DIR__ . "/includes/scrollbar.inc.php") ?>
+    <?php include(__DIR__ . "/../includes/scrollbar.inc.php") ?>
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-<?php echo $theme ?>" style="background-color: <?php echo $color ?>; box-shadow: 0 0.01vh 1vh 0 #000;">
@@ -40,7 +39,9 @@
                         if ($link !== "" && $link !== "#" && $link !== null) {
                             $piece = explode("#", $link);
 
-                            if ($piece[0] !== $domain) {
+                            if ($piece[0] == "About") {
+                                echo '<li class="nav-item"> <a class="nav-link active" href="' . $piece[1] . '">' . $piece[0] . '</a> </li>';
+                            } elseif ($piece[0] !== $domain) {
                                 echo '<li class="nav-item"> <a class="nav-link" href="' . $piece[1] . '">' . $piece[0] . '</a> </li>';
                             }
                         }
@@ -51,18 +52,13 @@
         </div>
     </nav>
 
-    <div class="container text-<?php echo $txtcolor ?>" id="main">
-        <div class="row align-items-center">
-            <div class="col">
-                <h1 style="color: <?php echo $color ?>"><i class="fab fa-discord"></i> Discord Server</h1>
-                <p><?php echo $members ?> members online</p>
-            </div>
-            <div class="col">
-                <img src="<?php echo $logo ?>" width="450"/>
-            </div>
-            <div class="col">
-                <h1 style="color: <?php echo $color ?>"><i class="far fa-play-circle"></i> FiveM Server</h1>
-                <p href="discord.com">Click to connect</p>
+    <!-- Abbout -->
+
+    <div class="container text-<?php echo $txtcolor ?>" id="about">
+        <div class="card bg-<?php echo $theme ?>" style="filter:brightness(0.8)">
+            <div class="card-header">About</div>
+            <div class="card-body">
+                <p class="card-text"><?php echo $about ?></p>
             </div>
         </div>
     </div>
