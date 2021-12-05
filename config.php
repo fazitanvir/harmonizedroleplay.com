@@ -15,7 +15,7 @@
     $theme = "dark";
 
     // Domain (with trailing slash)
-    $domain = "http://localhost:5555/";
+    $domain = "https://dev.harmonizedroleplay.com/";
 
     // Colors (hex)
     $color = "#ae47ff";
