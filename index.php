@@ -62,7 +62,7 @@
             </div>
             <div class="col">
                 <h1 style="color: <?php echo $color ?>"><i class="far fa-play-circle"></i> FiveM Server</h1>
-                <a href="discord.com">Click to connect</a>
+                <a href="<?php echo $fivem ?>">Click to connect</a>
             </div>
         </div>
     </div>
