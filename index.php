@@ -55,14 +55,14 @@
         <div class="row align-items-center">
             <div class="col">
                 <h1 style="color: <?php echo $color ?>"><i class="fab fa-discord"></i> Discord Server</h1>
-                <p><?php echo $members ?> members online</p>
+                <a><?php echo $members ?> members online</a>
             </div>
             <div class="col">
                 <img src="<?php echo $logo ?>" width="450"/>
             </div>
             <div class="col">
                 <h1 style="color: <?php echo $color ?>"><i class="far fa-play-circle"></i> FiveM Server</h1>
-                <p href="discord.com">Click to connect</p>
+                <a href="discord.com">Click to connect</a>
             </div>
         </div>
     </div>
