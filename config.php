@@ -28,10 +28,6 @@
 
     // Status Page
     $servers = [
-		"vMenu Server" => [
-			"IP" => "172.93.102.199",
-			"port" => "30120"
-		],
 		"Economy Server" => [
 			"IP" => "172.93.102.199",
 			"port" => "30121"
