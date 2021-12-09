@@ -9,7 +9,7 @@
     $serverid = "700823865299042304";
 
     // FiveM Connect Link
-    $fivem = "fivem://connect/172.93.102.199:30121";
+    $fivem = "fivem://connect/51.81.215.16:30121";
     
     // Theme (light or dark)
     $theme = "dark";
@@ -29,11 +29,11 @@
     // Status Page
     $servers = [
 		"Economy Server" => [
-			"IP" => "172.93.102.199",
+			"IP" => "51.81.215.16",
 			"port" => "30121"
 		],
 		"Discord Bot" => [
-			"IP" => "172.93.102.199",
+			"IP" => "51.81.215.16",
 			"port" => "8081"
 		],
 	];
@@ -62,11 +62,8 @@
     $link5label = "Store";
     $link5href = "https://store.harmonizedroleplay.com/";
 
-    $link6label = "CAD/MDT";
-    $link6href = $domain."cad";
-
     // Navbar Array
-    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href", "link6" => "$link6label#$link6href");
+    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
 
     // Text Color
     if ($theme == "light"){
