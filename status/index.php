@@ -9,7 +9,7 @@
           </div>';
 		} else if (!$fp) {
 			echo '<div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-error" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Offline</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Offline</div>
           </div>';
 		}
  	}
