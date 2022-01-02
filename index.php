@@ -55,7 +55,7 @@
         <div class="row align-items-center">
             <div class="col">
                 <h1 style="color: <?php echo $color ?>"><i class="fab fa-discord"></i> Discord Server</h1>
-                <a><?php echo $members ?> members online</a>
+                <a id="link" class="text-<?php echo $txtcolor ?>" href="<?php echo $fivem ?>"><?php echo $members ?> members online</a>
             </div>
             <div class="col">
                 <img src="<?php echo $logo ?>" width="450"/>

@@ -10,6 +10,9 @@
 
     // FiveM Connect Link
     $fivem = "fivem://connect/51.81.215.16:30121";
+
+    // Discord Invite
+    $discord = "https://harmonizedroleplay.com/discord"
     
     // Theme (light or dark)
     $theme = "dark";
