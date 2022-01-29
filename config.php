@@ -12,7 +12,7 @@
     $fivem = "fivem://connect/51.81.215.16:30121";
 
     // Discord Invite
-    $discord = "https://harmonizedroleplay.com/discord";
+    $discord = "https://discord.gg/5j2bUrsewr";
     
     // Theme (light or dark)
     $theme = "dark";
