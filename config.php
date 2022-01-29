@@ -20,6 +20,9 @@
     // Domain (with trailing slash)
     $domain = "https://harmonizedroleplay.com/";
 
+    // Discord Domain
+    $discordomain = "https://harmonizedroleplay.com/discord";
+
     // Colors (hex)
     $color = "#ae47ff";
 
