@@ -66,7 +66,7 @@
     $link4href = $domain."gallery";
 
     $link5label = "Store";
-    $link5href = "https://store.harmonizedroleplay.com/";
+    $link5href = "https://harmonized-roleplay.tebex.io/";
 
     // Navbar Array
     $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
