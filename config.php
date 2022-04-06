@@ -6,7 +6,7 @@
     $desc = "Realistic FiveM Roleplay Community";
 
     // Discord Server ID
-    $serverid = "700823865299042304";
+    $serverid = "863229062885802044";
 
     // FiveM Connect Link
     $fivem = "fivem://connect/51.81.215.16:30121";
