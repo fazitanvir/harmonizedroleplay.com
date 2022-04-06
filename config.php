@@ -12,7 +12,7 @@
     $fivem = "fivem://connect/51.81.215.16:30121";
 
     // Discord Invite
-    $discord = "https://discord.gg/5j2bUrsewr";
+    $discord = "https://discord.gg/harmonizedrp";
     
     // Theme (light or dark)
     $theme = "dark";
@@ -23,7 +23,7 @@
     // Discord Domain
     $discordomain = "https://harmonizedroleplay.com/discord";
 
-    // Colors (hex)
+    // Color (hex)
     $color = "#ae47ff";
 
     // Logo (must be an image ".png, .jpg, .gif, etc")
@@ -38,6 +38,10 @@
 			"IP" => "51.81.215.16",
 			"port" => "30121"
 		],
+                "vMenu Server" => [
+                        "IP" => "51.81.215.16",
+                        "port" => "30120"
+                ],
 		"Discord Bot" => [
 			"IP" => "51.81.215.16",
 			"port" => "8081"
