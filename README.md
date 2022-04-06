@@ -1,5 +1,5 @@
 # harmonizedroleplay.com
-WIP Community website template
+Community Website Template
 
 Live Preview
 https://harmonizedroleplay.com/
