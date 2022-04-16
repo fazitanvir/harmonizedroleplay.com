@@ -83,7 +83,7 @@
     }
 
     // Discord Member Count
-    $link = file_get_contents('https://discordapp.com/api/guilds/'.$serverid.'/widget.json');
+    $link = file_get_contents('https://discord.com/api/guilds/'.$serverid.'/widget.json');
     $JSON = json_decode($link, true);
     $members = $JSON['presence_count'];
 ?>
