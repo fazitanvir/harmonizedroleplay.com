@@ -34,24 +34,24 @@
 
     // Status Page
     $servers = [
-		"Economy Server" => [
-			"IP" => "15.204.147.173",
-			"port" => "30121"
-		],
+        "Economy Server" => [
+            "IP" => "15.204.147.173",
+            "port" => "30121"
+        ],
         "vMenu Server" => [
             "IP" => "15.204.147.173",
             "port" => "30120"
         ],
-		"Discord Bot" => [
-			"IP" => "15.204.147.173",
-			"port" => "8081"
-		],
+        "Discord Bot" => [
+            "IP" => "15.204.147.173",
+            "port" => "8081"
+        ],
 	];
 
     // Gallery
     $gallery = [
-		"https://cdn.discordapp.com/attachments/875906782327885894/896546735646732308/screenshot.jpg",
-		"https://cdn.discordapp.com/attachments/875906782327885894/911184680429178890/screenshot.jpg",
+        "https://cdn.discordapp.com/attachments/875906782327885894/896546735646732308/screenshot.jpg",
+        "https://cdn.discordapp.com/attachments/875906782327885894/911184680429178890/screenshot.jpg",
         "https://cdn.discordapp.com/attachments/875906782327885894/893347750618476594/screenshot.jpg"
 	];
 
