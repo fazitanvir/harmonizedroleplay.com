@@ -53,7 +53,7 @@
         "https://cdn.discordapp.com/attachments/875906782327885894/896546735646732308/screenshot.jpg",
         "https://cdn.discordapp.com/attachments/875906782327885894/911184680429178890/screenshot.jpg",
         "https://cdn.discordapp.com/attachments/875906782327885894/893347750618476594/screenshot.jpg"
-	];
+    ];
 
     // Navbar Links
 
