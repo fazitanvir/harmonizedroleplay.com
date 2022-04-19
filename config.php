@@ -56,7 +56,6 @@
     ];
 
     // Navbar Links
-
     $link1label = "About";
     $link1href = $domain."about";
 
@@ -69,11 +68,14 @@
     $link4label = "Gallery";
     $link4href = $domain."gallery";
 
-    $link5label = "Store";
-    $link5href = "https://harmonized-roleplay.tebex.io/";
+    $link5label = "CAD";
+    $link5href = $domain."cad";
+
+    $link6label = "Store";
+    $link6href = "https://harmonized-roleplay.tebex.io/";
 
     // Navbar Array
-    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href");
+    $linkarray = array("link1" => "$link1label#$link1href", "link2" => "$link2label#$link2href", "link3" => "$link3label#$link3href", "link4" => "$link4label#$link4href", "link5" => "$link5label#$link5href", "link6" => "$link6label#$link6href");
 
     // Text Color
     if ($theme == "light"){
