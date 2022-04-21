@@ -59,8 +59,8 @@
     $link1label = "About";
     $link1href = $domain."about";
 
-    $link2label = "Apply";
-    $link2href = $domain."apply";
+    $link2label = "Forums";
+    $link2href = $domain."forums";
 
     $link3label = "Status";
     $link3href = $domain."status";
