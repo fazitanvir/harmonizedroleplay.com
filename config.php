@@ -69,7 +69,7 @@
     $link4href = $domain."gallery";
 
     $link5label = "CAD";
-    $link5href = $domain."cad";
+    $link5href = $domain."cad/login.php";
 
     $link6label = "Store";
     $link6href = "https://harmonized-roleplay.tebex.io/";
