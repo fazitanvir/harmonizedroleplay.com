@@ -34,25 +34,26 @@
 
     // Status Page
     $servers = [
-        "Economy Server" => [
-            "IP" => "15.204.147.173",
-            "port" => "30121"
-        ],
+        // "Economy Server" => [
+        //     "IP" => "174.136.235.57",
+        //     "port" => "30121"
+        // ],
         "vMenu Server" => [
-            "IP" => "15.204.147.173",
+            "IP" => "174.136.235.57",
             "port" => "30120"
         ],
         "Discord Bot" => [
-            "IP" => "15.204.147.173",
+            "IP" => "174.136.235.57",
             "port" => "8081"
         ],
     ];
 
     // Gallery
     $gallery = [
-        "https://cdn.discordapp.com/attachments/875906782327885894/896546735646732308/screenshot.jpg",
-        "https://cdn.discordapp.com/attachments/875906782327885894/911184680429178890/screenshot.jpg",
-        "https://cdn.discordapp.com/attachments/875906782327885894/893347750618476594/screenshot.jpg"
+        "https://cdn.discordapp.com/attachments/958505539426467880/985344370737807370/unknown.png",
+        "https://cdn.discordapp.com/attachments/958505539426467880/985344472323858462/unknown.png",
+        "https://cdn.discordapp.com/attachments/958505539426467880/983777651804229734/jraZiOf.jpg",
+        "https://cdn.discordapp.com/attachments/958505539426467880/983760443539607572/unknown.png"
     ];
 
     // Navbar Links
