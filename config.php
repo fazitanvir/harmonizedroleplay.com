@@ -53,7 +53,10 @@
         "https://cdn.discordapp.com/attachments/958505539426467880/985344370737807370/unknown.png",
         "https://cdn.discordapp.com/attachments/958505539426467880/985344472323858462/unknown.png",
         "https://cdn.discordapp.com/attachments/958505539426467880/983777651804229734/jraZiOf.jpg",
-        "https://cdn.discordapp.com/attachments/958505539426467880/983760443539607572/unknown.png"
+        "https://cdn.discordapp.com/attachments/958505539426467880/983760443539607572/unknown.png",
+        "https://cdn.discordapp.com/attachments/977370546566201344/979817148144828416/KyawHMX.png",
+        "https://i.imgur.com/XMAo6T5.jpg"
+        "https://i.imgur.com/4D04RmQ.png"
     ];
 
     // Navbar Links
